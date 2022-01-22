@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Level2">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/arrange_it_as_the_day_of_the_week_by_touching_the_boxes"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="45dp"
+        android:text="@string/wednesday"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_weight="3"
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/sunday"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_weight="3"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/tuesday"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_weight="3"
+            android:background="@android:color/holo_purple"
+            android:text="@string/thursday"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_weight="3"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/monday"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_weight="3"
+            android:background="@android:drawable/bottom_bar"
+            android:text="@string/saturday"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_weight="3"
+            android:background="@android:color/holo_blue_bright"
+            android:text="@string/friday"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

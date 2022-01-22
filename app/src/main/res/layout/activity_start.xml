@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".activity.StartActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:background="@android:drawable/dialog_holo_dark_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:background="@android:drawable/dialog_holo_dark_frame"
+                    android:id="@+id/btnLevel1"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/level_1"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:background="@android:drawable/dialog_holo_dark_frame"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btnLevel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/level_2"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@android:drawable/dialog_holo_dark_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:background="@android:drawable/dialog_holo_dark_frame"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btnLevel3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/level_3"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:background="@android:drawable/dialog_holo_dark_frame"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btnLevel4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/level_4"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@android:drawable/dialog_holo_dark_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:background="@android:drawable/dialog_holo_dark_frame"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btnLevel5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/level_5"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:background="@android:drawable/dialog_holo_dark_frame"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/btnLevel6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/level_6"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+
+
+            <Button
+                android:background="@android:drawable/dialog_holo_dark_frame"
+                android:textColor="@android:color/white"
+                android:id="@+id/btnLevel7"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:text="@string/level_7"
+                android:layout_gravity="center_horizontal"
+                android:textSize="40sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Level7">
+<TextView
+    android:id="@+id/txtComingSoon"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:text="@string/coming_soon"
+    android:textAllCaps="true"
+    android:textSize="40sp"
+    android:paddingTop="300dp"
+    android:layout_gravity="center_horizontal"
+    android:textStyle="italic"
+    android:layout_weight="4"
+    android:textColor="@android:color/holo_orange_dark"
+   />
+</LinearLayout>
